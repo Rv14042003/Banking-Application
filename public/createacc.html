@@ -1,0 +1,43 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Creating Account</title>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">   
+</head>    
+<body>    
+    <h2>Create Account- IIB</h2><br>
+    <div class="login">  
+        
+        <form class="container" id="myForm" action="/create_acc" method="POST" >    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <br>
+        <input type="text" placeholder="User Name" name="uname" id="uname" required>    
+        <br><br>    
+        <label><b>email<br>     
+        </b>    
+        </label>    
+        <input type="email" id="email" placeholder="email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.com" required>    
+        <br><br>    
+        <label><b>Phone number     
+        </b>    
+        </label>    
+        <br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone number" pattern="[0-9]{10}" required>   
+        <br><br> 
+        <label><b>Password     
+        </b>    
+        </label>   
+        <br> 
+        <input type="password" id="pwd" name="pwd" > 
+        <br>  <br><br>
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br> 
+        <button href='index.html'; class="my-info text-center">Create Account</button>           
+              
+    </form>     
+</div>    
+</body>    
+</html>
